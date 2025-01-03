@@ -20,14 +20,22 @@
     --color-card-muted: 138, 51, 2;
     --color-border: 171, 75, 8;
   } */
+/*  html[data-theme="dark"] {
+  --color-fill: 16, 23, 42; /* higher contrast bgColor, dark gray */
+  /*--color-fill: 33, 39, 55;
+  --color-text-base: 234, 237, 243; /* light gray 
+  --color-accent: 255, 107, 1; /* orange 
+  --color-card: 27, 39, 70; /* dark blue-gray 
+  --color-card-muted: 138, 51, 2; /* dark brown 
+  --color-border: 171, 75, 8; /* dark orange 
+}*/
   html[data-theme="dark"] {
-  --color-fill: 16, 23, 42; /* higher contrast bgColor */
-  --color-fill: 33, 39, 55;
-  --color-text-base: 234, 237, 243;
-  --color-accent: 255, 107, 1;
-  --color-card: 27, 39, 70;
-  --color-card-muted: 138, 51, 2;
-  --color-border: 171, 75, 8;
+  --color-fill: 18, 18, 18; /* Dark gray with purple undertones */
+  --color-text-base: 230, 230, 230; /* Off-white */
+  --color-accent: 153, 102, 204; /* Purple */ 
+  --color-card: 25, 25, 25; /* Darker gray */
+  --color-card-muted: 40, 40, 40; /* Slightly lighter gray */
+  --color-border: 51, 51, 51; /* Mid-gray */
 }
 
   #sun-svg,
